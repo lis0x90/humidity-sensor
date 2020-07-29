@@ -54,6 +54,8 @@ void reconnect() {
 
 void setup() {
   Serial.begin(9600);
+  Serial.printf("Sensor mqtt topic: %s\n", MQTT_DATA_TOPIC);
+
   pinMode(WIFI_CONNECTED_LED, OUTPUT);
   pinMode(MQTT_CONNECTED_LED, OUTPUT);
   pinMode(ERROR_LED, OUTPUT);

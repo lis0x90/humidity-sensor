@@ -11,12 +11,14 @@
 // just uncomment lines for your sensor location
 // =====================================================
 
-//#define WIFI_CLIENT_HOSTNAME "sensor-anton"
-//#define MQTT_DATA_TOPIC "/climate-sensor/anton"
+//#define WIFI_CLIENT_HOSTNAME "clim-sensor-anton"
+//#define MQTT_DATA_TOPIC "/sensors/anton-room/climate"
 
-#define WIFI_CLIENT_HOSTNAME "sensor-hall"
-#define MQTT_DATA_TOPIC "/climate-sensor/hall"
+//#define WIFI_CLIENT_HOSTNAME "clim-sensor-hall"
+//#define MQTT_DATA_TOPIC "/sensors/hall/climate"
 
-//#define WIFI_CLIENT_HOSTNAME "sensor-laundry"
-//#define MQT T_DATA_TOPIC "/climate-sensor/laundry"
+//#define WIFI_CLIENT_HOSTNAME "clim-sensor-laundry"
+//#define MQTT_DATA_TOPIC "/sensors/laundry/climate"
 
+#define WIFI_CLIENT_HOSTNAME "clim-sensor-bathroom"
+#define MQTT_DATA_TOPIC "/sensors/bathroom/climate"
